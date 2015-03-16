@@ -1,0 +1,44 @@
+﻿.homepage section[role=main] {
+    margin: auto 120px;
+}
+body{
+    background-color:deeppink;
+}
+#imageGrid{
+    display:-ms-grid;
+    -ms-grid-columns:1fr 1fr 1fr;
+    -ms-grid-rows:1fr 1fr;
+    border-color:brown;
+    height:auto;
+    width:auto;    
+}
+#displayImage1{
+    -ms-grid-row:1;
+    left:0px;
+    top:0px;
+}
+#displayImage2{
+    -ms-grid-column:2;
+}
+#displayImage3{
+    -ms-grid-column:3;
+}
+#displayImage4{
+    -ms-grid-column:1;
+    -ms-grid-row:2;
+}
+#displayImage5{
+    -ms-grid-column:2;
+    -ms-grid-row:2;
+}
+#displayImage6{
+    -ms-grid-column:3;
+    -ms-grid-row:2;
+}
+img{
+    position:relative;
+    width:300px;
+    height:200px;
+    border:1px solid black;
+    margin:1px 1px 1px 1px;
+}

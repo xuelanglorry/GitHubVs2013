@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS 引用 -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+</head>
+<body>
+    <!-- 将加载和显示的内容。 -->
+    <div class="fragment homepage" style="background-color:deeppink;">
+        <header aria-label="Header content" role="banner">
+            <button data-win-control="WinJS.UI.BackButton" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">欢迎使用 PhotoAlbum!</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main" style="padding:100px;padding-top:100px;-ms-grid-row-span:2;">
+            <div id="imageGrid">
+                <img id="displayImage1" src="/images/1.jpg"/>
+                <img id="displayImage2" src="/images/2.jpg" />
+                <img id="displayImage3" src="/images/3.jpg" />
+                <img id="displayImage4" src="/images/4.jpg" />
+                <img id="displayImage5" src="/images/5.jpg" />
+                <img id="displayImage6" src="/images/6.jpg" />
+            </div>
+        </section>
+    </div>
+</body>
+</html>
